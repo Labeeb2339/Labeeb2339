@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/evidence-before-confidence.svg" alt="Evidence before confidence — ground, constrain, verify, measure" width="100%" />
+  <img src="./assets/evidence-line.gif" alt="Evidence before confidence — an animated path from grounding to measurement" width="100%" />
 </p>
 
 # Muhammad Labeeb Aryan
