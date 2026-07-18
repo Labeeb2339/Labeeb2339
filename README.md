@@ -6,7 +6,7 @@
 
 **I build systems that have to show their evidence.**
 
-Computer science student in Sarawak, Malaysia, working across local AI, agent safety, cybersecurity, embedded systems, and digital hardware verification.
+Form 3 secondary-school student in Sarawak, Malaysia, building across local AI, agent safety, cybersecurity, embedded systems, and digital hardware verification.
 
 > An AI answer should cite its source. An agent should reveal its permissions. RTL should agree with a golden model. A circuit calculation stays a prediction until it is measured.
 
@@ -73,6 +73,6 @@ I want to apply this approach where trust matters:
 - Python-driven digital verification and hardware/software co-design;
 - practical systems for Sarawak communities and technical teams.
 
-I am open to technical feedback, a short scoped pilot, mentorship, and student opportunities.
+I am open to technical feedback, mentorship, job shadowing, student programmes, and small supervised pilot projects.
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-labeeb-aryan-bin-mohd-lokman-369211300/) · [All repositories](https://github.com/Labeeb2339?tab=repositories)
