@@ -14,6 +14,7 @@ I explore AI systems, secure software, data, digital hardware, and electronics. 
 
 | Project | Area | What it demonstrates |
 | --- | --- | --- |
+| **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Fail-closed dataset, mask-evidence, and paired regression gates with preregistered synthetic fault evidence, exact implementation replay, and a browser-local artifact viewer. |
 | **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe placement harness with provenance-bearing traces, including a pinned Switch-Base-8 capture. Its first captured-trace benchmark reports the policy failure instead of hiding it. |
 | **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question evaluation harness. |
 | **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital design | Signed INT8 SystemVerilog compute core checked against a bit-exact Python model, simulator regression, and Yosys structural synthesis. |
