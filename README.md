@@ -35,6 +35,8 @@ I explore AI systems, secure software, data, digital hardware, and electronics. 
 
 These are student-built prototypes and small evaluations—not production deployments, agency systems, or silicon results.
 
+Calendar note: the **LABEEB + Espeon** pattern is intentionally generated [contribution art](https://github.com/Labeeb2339/contribution-art), not a record of development activity.
+
 ## Working with
 
 Python · TypeScript · Dart/Flutter · FastAPI · browser APIs · RAG evaluation · MCP · SystemVerilog · Yosys · GitHub Actions
