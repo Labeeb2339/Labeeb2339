@@ -16,10 +16,9 @@ I am a Form 3 secondary-school student in Sarawak, Malaysia, exploring AI system
 | **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Secure tooling | Constrained evidence server with allowlisted access, path containment, redaction, safe writes, and regression tests. |
 | **[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate)** | Data + full-stack software | Browser-based dataset release auditor covering privacy signals, leakage, duplicates, labels, provenance, and licensing. |
 
-## Applied projects
+## Applied project
 
 - **[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study)** — documented case study of a privacy-first Malaysian scam-risk prototype with on-device and rule-based checks.
-- **[555 Build Bench](https://github.com/Labeeb2339/555-build-bench)** — local workflow connecting NE555 calculations, LTspice preparation, staged assembly, and measurement logging.
 
 ## How I work
 
