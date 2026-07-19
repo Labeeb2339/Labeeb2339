@@ -10,7 +10,7 @@ I am a Form 3 secondary-school student in Sarawak, Malaysia, exploring AI system
 
 | Project | Area | What it demonstrates |
 | --- | --- | --- |
-| **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe expert-placement simulator comparing LRU, LFU, and a shift-aware policy on identical router traces. Its fixed result is explicitly modeled—not a hardware speed claim. |
+| **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe placement harness with provenance-bearing traces, including a pinned Switch-Base-8 capture. Its first captured-trace benchmark reports the policy failure instead of hiding it. |
 | **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question evaluation harness. |
 | **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital design | Signed INT8 SystemVerilog compute core checked against a bit-exact Python model, simulator regression, and Yosys structural synthesis. |
 | **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Secure tooling | Constrained evidence server with allowlisted access, path containment, redaction, safe writes, and regression tests. |
