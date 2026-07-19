@@ -1,41 +1,41 @@
 <p align="center">
-  <img src="./assets/profile-motion.gif" alt="Muhammad Labeeb Aryan — local AI, RAG, and safe agent systems" width="100%" />
+  <img src="./assets/profile-motion-general.gif" alt="Muhammad Labeeb Aryan — AI systems, software, security, data, and experimental computing" width="100%" />
 </p>
 
 **I build systems that have to show their evidence.**
 
-I am a Form 3 secondary-school student in Sarawak, Malaysia. My work focuses on local AI, retrieval-augmented generation, safe agent access, cybersecurity, and verifiable computing systems.
+I am a Form 3 secondary-school student in Sarawak, Malaysia, exploring AI systems, secure software, data, digital hardware, and electronics. I turn questions into inspectable prototypes, then separate what is simulated, implemented, and measured.
 
 ## Selected work
 
-| Project | What I built | Evidence |
+| Project | Area | What it demonstrates |
 | --- | --- | --- |
-| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | Local threat-intelligence RAG with hybrid retrieval, reciprocal-rank fusion, ATT&CK grounding, Ollama inference, and citations. | On a fixed 15-question pilot, keyword coverage increased from `0.627` to `0.843`; context hit rate reached `0.933`. |
-| **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | A constrained evidence server with allowlisted reads, path containment, redaction, deterministic fallback, and safe writes. | `18` regression tests cover containment, redaction, fallback retrieval, symlinks, cache hygiene, and JSON-RPC behaviour. |
-| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | A signed INT8 SystemVerilog dot-product core with a bit-exact Python model, generated vectors, backpressure, and saturation. | Python tests, simulator regression, and Yosys structural synthesis checks run in CI. |
-| **[CustodianMesh AI](https://github.com/Labeeb2339/custodian-mesh-ai)** | Policy-gated federated-AI simulator using synthetic custodian nodes, runtime output and provenance validation, and inspectable decision traces. | `18` automated tests and a fixed `30`-case policy evaluation cover allowed, denied, and adversarial paths. |
-| **[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate)** | Bounded browser-based dataset release auditor for privacy signals, leakage, duplicates, labels, provenance, and licensing. | A fixed `15`-case regression, `16` unit tests, and `6` integration tests check expected failures without flagging the `10` clean cases. |
-
-> **Scope:** These are student-built prototypes and small evaluations—not deployed agency systems, production security products, or silicon results.
+| **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe expert-placement simulator comparing LRU, LFU, and a shift-aware policy on identical router traces. Its fixed result is explicitly modeled—not a hardware speed claim. |
+| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question evaluation harness. |
+| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital design | Signed INT8 SystemVerilog compute core checked against a bit-exact Python model, simulator regression, and Yosys structural synthesis. |
+| **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Secure tooling | Constrained evidence server with allowlisted access, path containment, redaction, safe writes, and regression tests. |
+| **[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate)** | Data + full-stack software | Browser-based dataset release auditor covering privacy signals, leakage, duplicates, labels, provenance, and licensing. |
 
 ## Applied projects
 
-- **[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study)** — privacy-first Malaysian scam-risk prototype with on-device classification, explainable rules, OCR, QR, and link checks. The reviewed case study records `202` passing Flutter tests.
-- **[555 Build Bench](https://github.com/Labeeb2339/555-build-bench)** — local workflow from NE555 calculations to LTspice preparation, staged assembly, and measurement logging.
+- **[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study)** — documented case study of a privacy-first Malaysian scam-risk prototype with on-device and rule-based checks.
+- **[555 Build Bench](https://github.com/Labeeb2339/555-build-bench)** — local workflow connecting NE555 calculations, LTspice preparation, staged assembly, and measurement logging.
 
-## Engineering approach
+## How I work
 
-`define the claim` → `build the smallest credible system` → `test it` → `publish the boundary`
+`define the question` → `scope the claim` → `build` → `test` → `document the boundary`
 
-- AI answers should cite the evidence used.
-- Agents should expose their permissions and tool traces.
-- Hardware outputs should agree with a reproducible software model.
+- AI outputs should identify the evidence they used.
+- Software should expose security boundaries and failure paths.
+- Digital hardware should agree with a reproducible software model.
 - Simulated, implemented, and measured results should never be mixed together.
+
+These are student-built prototypes and small evaluations—not production deployments, agency systems, or silicon results.
 
 ## Working with
 
-Python · TypeScript · Dart/Flutter · FastAPI · RAG evaluation · Ollama · MCP · SystemVerilog · Yosys · GitHub Actions
+Python · TypeScript · Dart/Flutter · FastAPI · browser APIs · RAG evaluation · MCP · SystemVerilog · Yosys · GitHub Actions
 
-I welcome technical feedback, mentorship, job shadowing, student programmes, and small supervised pilot projects.
+I welcome technical feedback, mentorship, job shadowing, student programmes, and small supervised project opportunities.
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-labeeb-aryan-bin-mohd-lokman-369211300/) · [All repositories](https://github.com/Labeeb2339?tab=repositories)
