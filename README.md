@@ -1,10 +1,14 @@
 <p align="center">
-  <img src="./assets/profile-motion-general.gif" alt="Muhammad Labeeb Aryan — AI systems, software, security, data, and experimental computing" width="100%" />
+  <img src="./assets/espeon-loop.gif" alt="Animated pixel-art Espeon" width="260" />
 </p>
+
+# Muhammad Labeeb Aryan
+
+`FORM 3 · SARAWAK, MALAYSIA`
 
 **I build systems that have to show their evidence.**
 
-I am a Form 3 secondary-school student in Sarawak, Malaysia, exploring AI systems, secure software, data, digital hardware, and electronics. I turn questions into inspectable prototypes, then separate what is simulated, implemented, and measured.
+I explore AI systems, secure software, data, digital hardware, and electronics. I turn questions into inspectable prototypes, then separate what is simulated, implemented, and measured.
 
 ## Selected work
 
