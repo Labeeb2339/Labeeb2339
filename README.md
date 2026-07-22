@@ -14,6 +14,7 @@ I explore AI systems, secure software, data, digital hardware, and electronics. 
 
 | Project | Area | What it demonstrates |
 | --- | --- | --- |
+| **[RecurQuant](https://github.com/Labeeb2339/recurquant)** | AI inference research | Recurrent-state quantization harness for Qwen3.5 Gated DeltaNet. It preserves the failed proxy result, freezes a query-weighted selector before confirmation, and separates modeled storage from realized memory. |
 | **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Fail-closed dataset, mask-evidence, and paired regression gates with preregistered synthetic fault evidence, exact implementation replay, and a browser-local artifact viewer. |
 | **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe placement harness with provenance-bearing traces, including a pinned Switch-Base-8 capture. Its first captured-trace benchmark reports the policy failure instead of hiding it. |
 | **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question evaluation harness. |
@@ -40,7 +41,7 @@ Calendar note: the **LABEEB + Espeon** pattern is intentionally generated [contr
 
 ## Working with
 
-Python · TypeScript · Dart/Flutter · FastAPI · browser APIs · RAG evaluation · MCP · SystemVerilog · Yosys · GitHub Actions
+Python · PyTorch · LLM quantization · TypeScript · Dart/Flutter · FastAPI · browser APIs · RAG evaluation · MCP · SystemVerilog · Yosys · GitHub Actions
 
 I welcome technical feedback, mentorship, job shadowing, student programmes, and small supervised project opportunities.
 
