@@ -14,17 +14,19 @@ I explore AI systems, secure software, data, digital hardware, and electronics. 
 
 | Project | Area | What it demonstrates |
 | --- | --- | --- |
-| **[RecurQuant](https://github.com/Labeeb2339/recurquant)** | AI inference research | Recurrent-state quantization harness for Qwen3.5 Gated DeltaNet. It preserves the failed proxy result, freezes a query-weighted selector before confirmation, and separates modeled storage from realized memory. |
-| **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Fail-closed dataset, mask-evidence, and paired regression gates with preregistered synthetic fault evidence, exact implementation replay, and a browser-local artifact viewer. |
+| **[RecurQuant](https://github.com/Labeeb2339/recurquant)** | AI inference research | Physically packed recurrent-state quantization for Qwen3.5. On a frozen 500-task teacher-forced MBPP confirmation, its mixed INT8/INT4 policy used exactly 2,564,096 resident bytes and reduced macro excess NLL by 72.75% versus uniform INT4. |
+| **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Fail-closed dataset, mask-evidence, and paired regression gates. Its sealed synthetic suite detected all 270/270 required fault signals with 0/30 clean-control false positives. |
 | **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | Deterministic GPU–RAM–NVMe placement harness with provenance-bearing traces, including a pinned Switch-Base-8 capture. Its first captured-trace benchmark records the preregistered policy missing its traffic gate. |
-| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question evaluation harness. |
-| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital design | Signed INT8 SystemVerilog compute core checked against a bit-exact Python model, simulator regression, and Yosys structural synthesis. |
-| **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Secure tooling | Constrained evidence server with allowlisted access, path containment, redaction, safe writes, and regression tests. |
-| **[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate)** | Data + full-stack software | Browser-based dataset release auditor covering privacy signals, leakage, duplicates, labels, provenance, and licensing. |
+| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | AI + cybersecurity | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question paired evaluation harness. |
+| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital design | Signed INT8 SystemVerilog compute core checked across 369 deterministic transactions against a bit-exact Python model and Yosys structural synthesis. |
+| **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Secure tooling | Constrained evidence server with five narrow tools, zero execution capabilities, allowlisted access, redaction, safe writes, and 18 executable checks. |
+| **[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate)** | Data + full-stack software | Browser-based dataset release auditor with a 15/15 fixed detector regression spanning privacy signals, leakage, duplicates, labels, provenance, and licensing. |
 
 ## Applied project
 
-- **[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study)** — documented case study of a privacy-first Malaysian scam-risk prototype with on-device and rule-based checks.
+- **[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study)** — documented case study of a privacy-first Malaysian scam-risk prototype; its dated verification snapshot records 202 passing tests and a clean analyzer without presenting those checks as detection accuracy.
+- **[CustodianMesh AI](https://github.com/Labeeb2339/custodian-mesh-ai)** — full-stack federated decision-support simulation with a 30-case fixed policy regression and no unexpected capability calls.
+- **[Shark Habitat Prototype](https://github.com/Labeeb2339/shark-habitat-prototype)** — reproducible Streamlit exploration of environmental scoring with explicit separation between software behaviour and ecological evidence.
 
 ## How I work
 
