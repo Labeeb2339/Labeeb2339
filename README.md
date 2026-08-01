@@ -1,57 +1,55 @@
-<img
+﻿<img
   align="right"
-  src="./assets/espeon-loop.gif"
-  alt="Animated pixel-art Espeon"
+  src="./assets/profile-motion-general.gif"
+  alt="Animated profile icon"
   width="185"
 />
 
 # Muhammad Labeeb Aryan
 
-Form 3 student in Sarawak, Malaysia.
+Form 3 student from Sarawak, Malaysia.
 
-I build inspectable systems across AI inference and quantization, fine-tuning
-reliability, RAG, secure software, and RTL/digital design. I care about measured
-evidence, reproducible tests, and clear limits.
+I build things I can explain and test: inspectable prototypes, not marketing
+promises.  
+My projects are split by confidence:
 
-[LinkedIn](https://www.linkedin.com/in/muhammad-labeeb-aryan-bin-mohd-lokman-369211300/)
-&nbsp;&middot;&nbsp;
+- I know what is implemented.
+- I log what is measured.
+- I keep limits explicit.
+
+[LinkedIn](https://www.linkedin.com/in/muhammad-labeeb-aryan-bin-mohd-lokman-369211300/) |
 [Repositories](https://github.com/Labeeb2339?tab=repositories)
 
 <br clear="right" />
 
 ## Flagship work
 
-| Project | Focus | Evidence |
+| Project | Focus | What it shows |
 | --- | --- | --- |
-| **[CliffQuant](https://github.com/Labeeb2339/cliffquant)** ([model](https://huggingface.co/labeebaryan/Qwen3.5-0.8B-Base-CliffQuant-W4A16-G128)) | Quantization and inference | Exact minimax FP16 scale selection for multi-environment W4A16 quantization. On frozen Qwen3.5-0.8B held-out windows, the validated checkpoint lowered macro NLL by 0.0548 versus uniform AbsMax. |
-| **[RecurQuant](https://github.com/Labeeb2339/recurquant)** | Recurrent-state quantization | A physically packed INT8/INT4 policy used 2,564,096 resident bytes and reduced macro excess NLL by 72.75% versus uniform INT4 on a frozen 500-task MBPP confirmation. |
-| **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Fail-closed dataset, mask-evidence, and paired regression gates; the sealed synthetic suite found all 270 required fault signals with 0/30 clean-control false positives. |
-| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | RAG and evaluation | Local threat-intelligence retrieval with hybrid search, ATT&CK grounding, citations, and a fixed 15-question paired evaluation harness. |
-| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | RTL and digital design | A signed INT8 SystemVerilog compute core checked across 369 deterministic transactions against a bit-exact Python model and Yosys synthesis. |
-| **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems research | A deterministic GPU/RAM/NVMe placement harness with provenance-bearing traces, including an honest captured benchmark where the preregistered policy missed its traffic gate. |
+| **[RecurQuant](https://github.com/Labeeb2339/recurquant)** | AI inference | Recurrent-state quantization with fixed contracts and measurable memory trade-offs. |
+| **[CliffQuant](https://github.com/Labeeb2339/cliffquant)** | Quantization | W4A16/FP16 flow, explicit checkpoints, and reproducible scripts. |
+| **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** | RAG | Local retrieval with graph grounding and deterministic evaluation. |
+| **[Edge AI RTL Lab](https://github.com/Labeeb2339/edge-ai-rtl-lab)** | Digital hardware | INT8 signed compute blocks with regression checks between RTL and Python model. |
+| **[StrataMoE Lab](https://github.com/Labeeb2339/stratamoe-lab)** | AI systems | Resource-placement simulator with provenance traces and reproducible runs. |
+| **[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp)** | Tooling | Constrained evidence workflow with allowlists, redaction, and tests. |
+| **[SFTGuard](https://github.com/Labeeb2339/sftguard)** | Fine-tuning reliability | Dataset and training safety checks with traceable failure rules. |
 
-More builds:
-[ScamShield AI](https://github.com/Labeeb2339/scamshield-ai-case-study),
-[DataTrust Gate](https://github.com/Labeeb2339/data-trust-gate),
-[Shark Habitat Prototype](https://github.com/Labeeb2339/shark-habitat-prototype),
-[Local Evidence MCP](https://github.com/Labeeb2339/local-evidence-mcp), and
-[CustodianMesh AI](https://github.com/Labeeb2339/custodian-mesh-ai).
+## Built and documented
 
-## How I work
+- **[ScamShield AI Case Study](https://github.com/Labeeb2339/scamshield-ai-case-study)** â€” privacy-first scam-risk prototype notes and flow.
+- **[555 Build Bench](https://github.com/Labeeb2339/555-build-bench)** â€” my personal hardware bench workflow and logs.
+- **[Shark Habitat Prototype](https://github.com/Labeeb2339/shark-habitat-prototype)** â€” earlier exploration kept for continuity.
 
-`scope the claim -> build -> test -> publish the evidence -> name the limits`
+## Work style
 
-These are student-built prototypes and small research evaluations, not
-production deployments or silicon results.
+I use one rule: claim only what can be reproduced.
 
-**Working with:** Python, PyTorch, LLM quantization, FastAPI, TypeScript,
-Dart/Flutter, RAG evaluation, MCP, SystemVerilog, Yosys, and GitHub Actions.
+- Build small, test hard, publish what passed and what did not.
+- Keep implementation, simulation, and measured output in separate sections.
+- Keep negative findings with the same visibility as positive ones.
 
-I welcome technical feedback, mentorship, job shadowing, student programmes,
-and small supervised collaborations.
+Core stack: Python, PyTorch, TypeScript, Dart/Flutter, FastAPI, MCP, SystemVerilog,
+Yosys, GitHub Actions.
 
-<sub>
-The LABEEB + Espeon contribution pattern is intentional contribution art, not
-a record of development activity. Sprite source and attribution are documented
-in <a href="./assets/README.md">assets/README.md</a>.
-</sub>
+I'm open to structured mentorship, internships, and supervised technical
+collaborations.
