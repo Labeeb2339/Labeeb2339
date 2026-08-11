@@ -1,11 +1,11 @@
+# Hi, I'm Labeeb
+
 <img
   align="right"
   src="./assets/espeon-loop.gif"
   alt="Animated pixel-art Espeon"
   width="170"
 />
-
-# Hi, I'm Labeeb
 
 I'm a Form 3 student in Sarawak, Malaysia. I like cybersecurity, local AI,
 and digital hardware. Most of my projects start because I want to understand
