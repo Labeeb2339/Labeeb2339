@@ -29,8 +29,8 @@ prove.
 - **[CyberRAG](https://github.com/Labeeb2339/cyber-rag)** - a local
   cybersecurity retrieval experiment with MITRE ATT&CK grounding and a
   checked-in 15-question pilot.
-- **[INT8 dot-product RTL](https://github.com/Labeeb2339/int8-dot-product-rtl)**
-  - one small SystemVerilog compute core with a Python reference model and CI.
+- **[INT8 dot-product RTL](https://github.com/Labeeb2339/int8-dot-product-rtl)** -
+  one small SystemVerilog compute core with a Python reference model and CI.
 
 Some experiments worked. Some failed. I keep useful failure cases instead of
 turning every result into a success story.
