@@ -20,6 +20,9 @@ prove.
 
 ## Projects I'd show first
 
+- **[RecurQuant](https://github.com/Labeeb2339/recurquant)** - a Qwen3.5
+  recurrent-state quantization research project with packed-state measurements
+  and a frozen 500-task held-out fidelity result.
 - **[ScamShield](https://github.com/Labeeb2339/scamshield-case-study)** - a
   Flutter prototype made for the Young Innovators Challenge 2026 to explain
   Malaysian scam-risk signals.
