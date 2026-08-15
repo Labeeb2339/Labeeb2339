@@ -23,6 +23,12 @@ prove.
 - **[RecurQuant](https://github.com/Labeeb2339/recurquant)** - a Qwen3.5
   recurrent-state quantization research project with packed-state measurements
   and a frozen 500-task held-out fidelity result.
+- **[From-scratch ML systems](https://github.com/Labeeb2339/pico-kernels)** -
+  Triton GEMM, FlashAttention, and GPTQ kernels written from first principles
+  and benchmarked against cuBLAS/torch, with
+  [PicoDiffusion](https://github.com/Labeeb2339/pico-diffusion) (DDPM/DDIM,
+  CIFAR-10 FID 53.23) and [PicoLM](https://github.com/Labeeb2339/picolm)
+  (char-level GPT) trained end-to-end.
 - **[ScamShield](https://github.com/Labeeb2339/scamshield-case-study)** - a
   Flutter prototype made for the Young Innovators Challenge 2026 to explain
   Malaysian scam-risk signals.
