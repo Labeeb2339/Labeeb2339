@@ -33,6 +33,9 @@ against the real thing, and write down what the result does *not* prove.
     DPM-Solver++ failure case and a latent-diffusion bug-fix, both documented.
   - [PicoLM](https://github.com/Labeeb2339/picolm) — a GPT from scratch: RoPE,
     RMSNorm, flash attention, BPE, and a from-scratch HellaSwag harness.
+  - [PicoEngine](https://github.com/Labeeb2339/pico-engine) — a from-scratch
+    GGUF inference engine (GGML dequant + LLaMA forward + BPE) that runs
+    Qwen2.5-0.5B, dequantized bit-exact and benchmarked against llama.cpp.
 - **[ScamShield](https://github.com/Labeeb2339/scamshield-case-study)** — a
   Flutter prototype for the Young Innovators Challenge 2026 that explains
   Malaysian scam-risk signals.
@@ -46,8 +49,7 @@ against the real thing, and write down what the result does *not* prove.
   a signed-INT8 SystemVerilog compute core with a Python reference model and CI.
 
 Some experiments worked. Some failed. I keep the useful failure cases with
-their measurements instead of turning every result into a success story — the
-failures are where the learning is.
+their measurements instead of turning every result into a success story.
 
 ## Right now
 
