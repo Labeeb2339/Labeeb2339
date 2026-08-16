@@ -55,9 +55,3 @@ I'm working through quantization (GPTQ, W4A16, recurrent-state), RAG
 evaluation, and diffusion samplers, and learning Windows/.NET and SystemVerilog
 along the way. Everything above is tested and benchmarked against a reference;
 if I can't show how a number was produced, it doesn't go here.
-
-<sub>
-The LABEEB + Espeon contribution pattern is intentional pixel art, not a work
-log. Sprite source and attribution are in
-<a href="./assets/README.md">assets/README.md</a>.
-</sub>
