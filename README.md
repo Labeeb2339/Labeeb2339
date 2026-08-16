@@ -38,7 +38,10 @@ against the real thing, and write down what the result does *not* prove.
     Qwen2.5-0.5B bit-exact at **~149 tok/s** decode / **~7,950 tok/s** prefill
     — a 4.5× speedup built by measurement-driven optimization (quantized
     matmuls, a fused decode-attention kernel, a CUDA-graph decode loop),
-    benchmarked honestly against a CUDA llama.cpp.
+    benchmarked honestly against a CUDA llama.cpp. Also runs a **14B
+    Qwen1.5-MoE** (60 experts, top-4 sparse routing) from 32 GB RAM — bit-exact
+    dequant, fully-quantized int8 weights, mixed-format dispatch, and partial
+    GPU offload.
 - **[ScamShield](https://github.com/Labeeb2339/scamshield-case-study)** — a
   Flutter prototype for the Young Innovators Challenge 2026 that explains
   Malaysian scam-risk signals.
