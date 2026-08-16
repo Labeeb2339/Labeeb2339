@@ -35,9 +35,10 @@ against the real thing, and write down what the result does *not* prove.
     RMSNorm, flash attention, BPE, and a from-scratch HellaSwag harness.
   - [PicoEngine](https://github.com/Labeeb2339/pico-engine) — a from-scratch
     GGUF inference engine (GGML dequant + LLaMA forward + BPE) that runs
-    Qwen2.5-0.5B bit-exact and **beats llama.cpp** — decode **1.38×**, prefill
-    **~9.6×** — via quantized matmuls, a fused decode-attention kernel, and a
-    CUDA-graph decode loop.
+    Qwen2.5-0.5B bit-exact at **~149 tok/s** decode / **~7,950 tok/s** prefill
+    — a 4.5× speedup built by measurement-driven optimization (quantized
+    matmuls, a fused decode-attention kernel, a CUDA-graph decode loop),
+    benchmarked honestly against a CUDA llama.cpp.
 - **[ScamShield](https://github.com/Labeeb2339/scamshield-case-study)** — a
   Flutter prototype for the Young Innovators Challenge 2026 that explains
   Malaysian scam-risk signals.
